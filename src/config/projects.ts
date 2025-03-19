@@ -20,16 +20,22 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    name: 'Honorable Mention - Mathematical Contest in Modeling',
+    description: 'Awarded for outstanding performance in mathematical modeling.',
+    date: '2019',
+    location: 'USA',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    name: 'People’s Scholarship',
+    description: 'Recognized for academic excellence at Harbin Institute of Technology.',
+    date: '2017',
+    location: 'Harbin, China',
+  },
+  {
+    name: 'Top 5% - HIT Annual Project Competition',
+    description: 'Achieved a top ranking in the university-wide project competition.',
+    date: '2017',
+    location: 'Harbin, China',
   },
 ]
 
@@ -39,28 +45,22 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'Option Pricing with Deep Learning',
+    description: 'Developed 3D tensor-based deep learning models to predict option prices.',
+    link: { href: 'arxiv.org/abs/2106.02916', label: 'Research Paper' },
+    tags: ['Deep Learning', 'Finance', 'Option Pricing', 'Quantitative Research']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Quant Research - Bank PD Prediction',
+    description: 'Applied machine learning models to assess the default probability of banks.',
+    link: { href: 'github.com/Potatoloser/QF-603', label: 'Project Overview' },
+    tags: ['Machine Learning', 'Finance', 'Risk Analysis']
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Trading Strategy - News Sentiment Analysis',
+    description: 'Utilized ChatGPT for news-driven trading signals.',
+    link: { href: '', label: 'Strategy Insights' },
+    tags: ['Algorithmic Trading', 'Natural Language Processing', 'Financial Markets']
   },
 ]
 
@@ -70,26 +70,25 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'First Aid Certification & Training',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      'Certified first aider of the Red Cross Society (2019-2022). Organized and conducted over 10 first-aid training sessions for HIT students.',
+    date: '2019-2022',
+    location: 'Harbin, China',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'Loving Heart Society Founder',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+      'Founded HIT Loving Heart Society in 2018, supporting the education of over 1000 children through mentorship and resource distribution.',
+    date: '2018-Present',
+    location: 'China',
   },
+
   {
-    name: 'Code Review Session',
+    name: 'National Model United Nations - Group Leader',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'Led a team in the NMUN conference, engaging in diplomatic debates and policy discussions.',
+    date: '2019-04',
+    location: 'China',
   },
 ]

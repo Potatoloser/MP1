@@ -3,25 +3,25 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Zhou Shen'
+export const headline = 'Quantitative Analyst at Cargill International Trading'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi, I'm Zhou Shen. I have a background in Quantitative Finance and Statistics, with experience in quantitative research, trading strategies, and financial modeling. I currently work as a Quantitative Analyst at Cargill International Trading."
+export const email = 'zhoushen1999@outlook.com'
+export const githubUsername = 'Potatoloser'
 
 // about page
-export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
+export const aboutMeHeadline = 'Who Am I?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "I'm Zhou Shen, a Quantitative Analyst specializing in developing trading strategies and financial modeling. I earned my Master's degree in Quantitative Finance from Singapore Management University and my Bachelor's degree in Statistics from Harbin Institute of Technology.",
+  'My work involves data-driven decision-making, building automated trading workflows, and leveraging AI for market analysis. I have experience with Python, R, MATLAB, and various financial databases.',
+  "This website serves as my personal space to share insights about quantitative finance, algorithmic trading, and programming.",
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
+export const blogHeadLine = "Thoughts on Finance, Trading, and AI."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "I write about quantitative finance, algorithmic trading, machine learning, and related topics."
 
 // social links
 export type SocialLinkType = {
@@ -33,39 +33,28 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
+    name: 'GitHub',
+    icon: 'github',
+    href: 'https://github.com/Potatoloser',
   },
   {
-    name: 'Bilibili',
-    icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
+    name: 'LinkedIn',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/statistics-student-zhoushen/',
   },
 ]
 
 // https://simpleicons.org/
 export const techIcons = [
-  'typescript',
-  'javascript',
-  'supabase',
-  'cloudflare',
-  'java',
-  'oracle',
+  'python',
+  'r',
+  'cplusplus',
   'mysql',
-  'react',
-  'nodedotjs',
-  'nextdotjs',
-  'prisma',
-  'postgresql',
-  'nginx',
-  'vercel',
-  'docker',
+  'sqlite',
+  'matlab',
+  'tableau',
   'git',
   'github',
   'visualstudiocode',
-  'androidstudio',
-  'ios',
-  'apple',
-  'wechat',
+  'CDP'
 ]
