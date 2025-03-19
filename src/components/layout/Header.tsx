@@ -210,6 +210,7 @@ export function Header() {
   let isInitial = useRef(true)
 
   useEffect(() => {
+    document.documentElement.classList.add('dark');
     let downDelay = avatarRef.current?.offsetTop ?? 0
     let upDelay = 64
 
